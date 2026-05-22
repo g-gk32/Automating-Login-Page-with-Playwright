@@ -1,12 +1,17 @@
 {
     "LoginData" :{
         "UserName":{
-            "ValidUserName" : "student ",
-            "InvalidUserName" : "teacher"
+            "ValidUserName" : "student",
+            "InvalidUserName" : "teacher",
+            "MixedCaseUserName" : "Student"
         },
         "Password":{
             "ValidPasword" : "Password123",
             "InvalidPassword" : "P@@swrd123"
+        },
+        "Messages":{
+            "LoginSuccessMesage" : "Logged In Successfully",
+            "CongratsMessage" : "Congratulations student. You successfully logged in!"
         }
     }
 }

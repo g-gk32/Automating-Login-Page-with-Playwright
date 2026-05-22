@@ -50,4 +50,16 @@ export class webActions {
         await this.page.waitForSelector(locator,{state:'visible'})
         .catch(()=>{throw new Error(`${errorMessage}`);});
     }
+
+    //validate page URL 
+    async validatePageURL(expectedURL: string): Promise<void> {
+        this.ensurePageIsValid();
+        await expect(this.page).toHaveURL(expectedURL);
+    }
+    
+    //reload page
+    async reloadPage(): Promise<void> {
+    this.ensurePageIsValid();
+    await this.page.reload({ waitUntil: 'load' });
+}
 }

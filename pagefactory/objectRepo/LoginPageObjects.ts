@@ -6,4 +6,5 @@ export const LoginPageObjects = {
     successMessage_LoggedInSuccessfully : "//h1[text()='Logged In Successfully']",
     congratulationsText : "//p/strong[text()='Congratulations student. You successfully logged in!']",
     logoutButton : "//a[text()='Log out']",
+    invalidCredsErrorMessage : "//div[text()='Your username is invalid!']",
 };
