@@ -1,0 +1,12 @@
+{
+    "LoginData" :{
+        "UserName":{
+            "ValidUserName" : "student ",
+            "InvalidUserName" : "teacher"
+        },
+        "Password":{
+            "ValidPasword" : "Password123",
+            "InvalidPassword" : "P@@swrd123"
+        }
+    }
+}
